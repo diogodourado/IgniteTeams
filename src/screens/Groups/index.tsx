@@ -10,7 +10,7 @@ import { Container } from './styles';
 
 export function Groups() {
 
-    const [groups, setGroups] = useState<string[]>(['Galera da Brainatwork', 'Amigos'])
+    const [groups, setGroups] = useState<string[]>([])
     return (
         <Container>
             <Header showBackButton />

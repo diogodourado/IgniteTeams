@@ -9,7 +9,7 @@ import { ListEmpty } from "@components/ListEmpty";
 import { ButtonIcon } from "@components/ButtonIcon";
 import { PlayerCard } from "@components/PlayerCard";
 
-import { Container, Form, HeaderList, NumbersOfPlayers } from "./styles";
+import { Container, Form, HeaderList, NumberOfPlayers } from "./styles";
 import { Button } from "@components/Button";
 
 export function Players() {
@@ -48,9 +48,9 @@ export function Players() {
                     )}
                     horizontal
                 />
-                <NumbersOfPlayers>
+                <NumberOfPlayers>
                     {players.length}
-                </NumbersOfPlayers>
+                </NumberOfPlayers>
             </HeaderList>
 
             <FlatList

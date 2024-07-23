@@ -8,6 +8,7 @@ import { ButtonIcon } from "@components/ButtonIcon";
 import { Input } from "@components/Input";
 
 import { Container, Form, HeaderList, NumbersOfPlayers } from "./styles";
+import { PlayerCard } from "@components/PlayerCard";
 
 export function Players() {
 
@@ -50,8 +51,16 @@ export function Players() {
                 </NumbersOfPlayers>
             </HeaderList>
 
-
-
+            <FlatList
+                data={players}
+                keyExtractor={item => item}
+                renderItem={({ item }) => (
+                    <PlayerCard
+                        name={item}
+                        onRemove={() => { }}
+                    />
+                )}
+            />
 
         </Container>
     )

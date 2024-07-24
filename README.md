@@ -1,14 +1,10 @@
-Claro, aqui está o README atualizado com o nome "Brains Teams":
+# Ignite Teams
 
----
-
-# Brains Teams
-
-Bem-vindo ao projeto Brains Teams! Este projeto é parte do curso da Rocketseat e tem como objetivo ajudar a organizar pessoas que se reúnem para jogar em turmas. Durante o desenvolvimento desta aplicação, você aprenderá diversas habilidades novas e práticas importantes.
+Bem-vindo ao projeto Ignite Teams! Este projeto é parte do curso da Rocketseat e tem como objetivo ajudar a organizar pessoas que se reúnem para jogar em turmas. Durante o desenvolvimento desta aplicação, você aprenderá diversas habilidades novas e práticas importantes.
 
 ## Descrição do Projeto
 
-Brains Teams é uma aplicação que facilita a organização de grupos de pessoas que se reúnem para jogar. A aplicação permite criar e gerenciar turmas, adicionar e organizar participantes por times, e muito mais.
+Ignite Teams é uma aplicação que facilita a organização de grupos de pessoas que se reúnem para jogar. A aplicação permite criar e gerenciar turmas, adicionar e organizar participantes por times, e muito mais.
 
 ## Funcionalidades
 

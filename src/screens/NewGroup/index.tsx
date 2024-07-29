@@ -21,15 +21,15 @@ export function NewGroup() {
         try {
 
             if (group.trim().length === 0) {
-                return Alert.alert('Novo Grupo', 'Informe o nome da turma.');
+                return Alert.alert('Nova Turma', 'Informe o nome da turma.');
             }
             await groupCreate(group.trim());
             navigation.navigate('players', { group })
         } catch (error) {
             if (error instanceof AppError) {
-                Alert.alert('Novo Grupo', error.message); ''
+                Alert.alert('Nova Turma', error.message); ''
             } else {
-                Alert.alert('Novo Grupo', 'Não foi possível criar o grupo');
+                Alert.alert('Nova Turma', 'Não foi possível criar a turma.');
                 console.log(error);
             }
         }
